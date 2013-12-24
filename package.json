@@ -1,0 +1,27 @@
+{
+  "name": "protractor-firebase",
+  "version": "0.1.0",
+  "description": "Firebase wrapper for use in Protractor tests",
+  "main": "lib/protractor-firebase.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urish/protractor-firebase"
+  },
+  "keywords": [
+    "firebase",
+    "protractor",
+    "angularjs",
+    "testing",
+    "e2e"
+  ],
+  "author": "Uri Shaked",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urish/protractor-firebase/issues"
+  },
+  "homepage": "https://github.com/urish/protractor-firebase",
+  "dependencies": {
+    "protractor": ">0.10.0 <0.16.0",
+    "firebase": "~1.0.0"
+  }
+}
