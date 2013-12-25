@@ -20,6 +20,7 @@ once the operation has been successfully completed:
 
 * `$remove()` - Wrapper for [remove()](https://www.firebase.com/docs/javascript/firebase/remove.html)
 * `$set(value)` - Wrapper for [set()](https://www.firebase.com/docs/javascript/firebase/set.html)
+* `$update(value)` - Wrapper for [update()](https://www.firebase.com/docs/javascript/firebase/update.html)
 * `$value(waits)` - Reads the data from the current location and returns a promise that will be resolved with the data. If `waits` it true, the promise will only be resolved once non null data has arrived.
 * `$valueChange()` - Resolves once the data from current location has changed. The promise will be resolved with the new value.
 
