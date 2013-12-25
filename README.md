@@ -9,7 +9,7 @@ Copyright (C) 2013, Uri Shaked <uri@urish.org>
 
 Usage
 -----
-Use this module as a drop-in replacement for the [https://npmjs.org/package/firebase](Firebase) module.
+Use this module as a drop-in replacement for the [Firebase](https://npmjs.org/package/firebase) module.
 
 This will add some new methods to your Firebase instances that are useful for interacting with Firebase inside your test code.
 The methods integrate seamlessly with the [Web Driver Control Flow](https://github.com/angular/protractor/blob/master/docs/control-flow.md),
