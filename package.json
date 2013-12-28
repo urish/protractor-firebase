@@ -1,6 +1,6 @@
 {
 	"name": "protractor-firebase",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Firebase wrapper for use in Protractor tests",
 	"main": "lib/protractor-firebase.js",
 	"repository": {
@@ -24,7 +24,7 @@
 	},
 	"homepage": "https://github.com/urish/protractor-firebase",
 	"dependencies": {
-		"protractor": ">0.10.0 <0.16.0",
+		"protractor": ">=0.10.0 <1.0.0",
 		"firebase": "~1.0.0"
 	},
 	"devDependencies": {
