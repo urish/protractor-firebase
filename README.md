@@ -3,7 +3,7 @@ protractor-firebase
 
 Firebase wrapper for use in Protractor tests.
 
-Copyright (C) 2013, Uri Shaked <uri@urish.org>
+Copyright (C) 2013, 2014, Uri Shaked <uri@urish.org>
 
 [![Build Status](https://travis-ci.org/urish/protractor-firebase.png?branch=master)](https://travis-ci.org/urish/protractor-firebase)
 
@@ -26,6 +26,7 @@ once the operation has been successfully completed:
 * `$push(value)` - Wrapper for [push()](https://www.firebase.com/docs/javascript/firebase/push.html). The promise will be resolved with a [Firebase](https://www.firebase.com/docs/javascript/firebase/index.html) reference for the generated location.
 * `$value(waits)` - Reads the data from the current location and returns a promise that will be resolved with the data. If `waits` it true, the promise will only be resolved once non null data has arrived.
 * `$valueChange()` - Resolves once the data from current location has changed. The promise will be resolved with the new value.
+* `$waitForValue(predicate)` - Calls the `predicate` callback whenever the value changes with the new value as an argument. Resolves once predicate returns true for the given value. 
 
 License
 ----
