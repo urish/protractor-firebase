@@ -3,7 +3,6 @@
 'use strict';
 
 var Firebase = require('../lib/protractor-firebase');
-var protractor = require('protractor');
 
 describe('protractor-firebase', function () {
 	var firebase;
@@ -12,7 +11,7 @@ describe('protractor-firebase', function () {
 	beforeEach(function () {
 		firebase = new Firebase('https://firechat-demo.firebaseio.com');
 		protractorMock = createSpyObj('protractor', ['call']);
-		spyOn(protractor, 'getInstance').andReturn(protractorMock);
+		global.browser = protractorMock;
 	});
 
 	describe('#$update', function () {
