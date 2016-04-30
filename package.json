@@ -23,11 +23,9 @@
 		"url": "https://github.com/urish/protractor-firebase/issues"
 	},
 	"homepage": "https://github.com/urish/protractor-firebase",
-	"dependencies": {
-		"protractor": ">=0.12.0 <2.0.0",
-		"firebase": "~1.0.0"
-	},
 	"devDependencies": {
+		"protractor": ">3.0.0",
+		"firebase": ">2.4.0",
 		"jasmine-node": "~1.12.0"
 	}
 }
