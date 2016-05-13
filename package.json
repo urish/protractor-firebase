@@ -1,35 +1,35 @@
 {
-	"name": "protractor-firebase",
-	"version": "0.2.0",
-	"description": "Firebase wrapper for use in Protractor tests",
-	"main": "lib/protractor-firebase.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/urish/protractor-firebase"
-	},
-	"keywords": [
-		"firebase",
-		"protractor",
-		"angularjs",
-		"testing",
-		"e2e"
-	],
-	"scripts": {
-		"test": "node_modules/.bin/jasmine-node spec/protractor-firebase-spec.js --forceexit"
-	},
-	"author": "Uri Shaked",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/urish/protractor-firebase/issues"
-	},
-	"homepage": "https://github.com/urish/protractor-firebase",
-	"peerDependencies": {
-		"protractor": ">3.0.0",
-		"firebase": ">2.4.0"
-	},
-	"devDependencies": {
-		"protractor": ">3.0.0",
-		"firebase": ">2.4.0",
-		"jasmine-node": "~1.12.0"
-	}
+  "name": "protractor-firebase",
+  "version": "0.3.0",
+  "description": "Firebase wrapper for use in Protractor tests",
+  "main": "lib/protractor-firebase.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urish/protractor-firebase"
+  },
+  "keywords": [
+    "firebase",
+    "protractor",
+    "angularjs",
+    "testing",
+    "e2e"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node spec/protractor-firebase-spec.js --forceexit"
+  },
+  "author": "Uri Shaked",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urish/protractor-firebase/issues"
+  },
+  "homepage": "https://github.com/urish/protractor-firebase",
+  "peerDependencies": {
+    "protractor": ">3.0.0",
+    "firebase": ">2.4.0"
+  },
+  "devDependencies": {
+    "protractor": ">3.0.0",
+    "firebase": ">2.4.0",
+    "jasmine-node": "~1.12.0"
+  }
 }
